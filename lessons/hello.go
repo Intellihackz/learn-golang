@@ -1,11 +1,14 @@
 package main
 
-import (
-	"fmt"
-
-	"rsc.io/quote/v4"
-)
+import "fmt"
 
 func main() {
-	fmt.Print(quote.Go())
+	fmt.Println("This line is printed")
+	fmt.Printf("%d is a number", 10)
+	var a int = 4
+	var b, c int
+	b = 5
+	c = 10
+	fmt.Println(a)
+	fmt.Println(b + c)
 }
