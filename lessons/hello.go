@@ -8,6 +8,7 @@ func main() {
 	Arrays()
 	slices()
 	ifstate()
+	loops()
 }
 
 func variables() {
@@ -43,4 +44,13 @@ func ifstate() {
 		fmt.Println("Not eligible to vote")
 
 	}
+}
+
+func loops() {
+	sum := 0
+	for i := 1; i <= 100; i++ {
+		fmt.Println(i)
+		sum = sum + i
+	}
+	fmt.Println(sum)
 }
