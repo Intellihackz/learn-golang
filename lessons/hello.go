@@ -6,6 +6,7 @@ func main() {
 	fmt.Println("This line is printed")
 	variables()
 	Arrays()
+	slices()
 }
 
 func variables() {
@@ -26,4 +27,9 @@ func Arrays() {
 
 	fmt.Println(arrstring[2])
 	fmt.Println(arrint[2])
+}
+
+func slices() {
+	slicestring := []string{"hello", "world", "!"}
+	fmt.Println(slicestring)
 }
