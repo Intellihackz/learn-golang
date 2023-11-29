@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"lessons/setup/leetcodes"
+)
 
 func main() {
 	fmt.Println("This line is printed")
@@ -9,6 +12,7 @@ func main() {
 	slices()
 	ifstate()
 	loops()
+	leetcodes.Leetcode()
 }
 
 func variables() {
