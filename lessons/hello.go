@@ -4,11 +4,26 @@ import "fmt"
 
 func main() {
 	fmt.Println("This line is printed")
-	fmt.Printf("%d is a number", 10)
-	var a int = 4
-	var b, c int
-	b = 5
-	c = 10
-	fmt.Println(a)
-	fmt.Println(b + c)
+	variables()
+	Arrays()
+}
+
+func variables() {
+	name := "John Doe"
+	intgr := 24
+	floate := 154.61
+	boole := true
+
+	fmt.Println(name)
+	fmt.Println(floate)
+	fmt.Println(intgr)
+	fmt.Println(boole)
+}
+
+func Arrays() {
+	arrstring := [3]string{"hello", " ", "world"}
+	arrint := [3]int{1, 2, 3}
+
+	fmt.Println(arrstring[2])
+	fmt.Println(arrint[2])
 }
